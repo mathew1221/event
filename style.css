@@ -2,13 +2,19 @@
     font-style: normal;
     font-weight: lighter;
     font-family: "Bebas Neue";
-    src: url(fonts/ofont.ru_Bebas\ Neue.ttf);
+    src: url(fonts/Bebas\ Neue.ttf);
 }
 @font-face{
     font-style: normal;
     font-weight: lighter;
-    font-family: "Bebas Neue";
-    src: url(fonts/ofont.ru_Bebas\ Neue\ \(1\).ttf);
+    font-family: "Bebas Neue regular";
+    src: url(fonts/Bebas\ Neue\ regular.ttf);
+}
+@font-face{
+    font-style: normal;
+    font-weight: lighter;
+    font-family: "Bebas Neue book";
+    src: url(fonts/Bebas\ Neue\ book.ttf);
 }
 *{
     margin: 0;
@@ -40,6 +46,7 @@ body{
     font-family: 'Bebas Neue';
     font-size: 23.78px;
     color: white;
+    text-decoration: underline #0101a3;
 }
 .event{
     display: flex;
@@ -53,19 +60,40 @@ body{
 .blue-man{
     object-fit: cover;
     width: 550px;
-    height: 380px;
-    
+    height: 580px;
 }
 .head>h1{
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue regular';
     font-size: 80px;
     letter-spacing: 2px;
     color: white;
     text-decoration: underline #e92bde;
 }
-.pink>h1{
-    font-family: 'Bebas Neue';
-    font-size: 38px;
-    letter-spacing: 2px;
+.pinktext{
+    font-family: 'Bebas Neue regular';
+    font-size: 28px;
+    color: #e92bde;
+}
+.lorem{
+    font-family: 'Bebas Neue book';
+    font-size: 28px;
     color: white;
+    margin-top: 5%;
+}
+.event-text{
+    margin-top: 4%;
+}
+.readmore>a>p{
+    font-family: 'Bebas Neue regular';
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    text-decoration: underline #e92bde;
+}
+.readmore{
+    margin-top: 10%;
+    height: 7vh;
+    width: 40%;
+    background-color: #e92bde;
 }
