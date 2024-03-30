@@ -40,7 +40,6 @@ body{
     font-family: 'Bebas Neue';
     font-size: 23.78px;
     color: white;
-    text-decoration: none;
 }
 .event{
     display: flex;
@@ -63,4 +62,10 @@ body{
     letter-spacing: 2px;
     color: white;
     text-decoration: underline #e92bde;
+}
+.pink>h1{
+    font-family: 'Bebas Neue';
+    font-size: 38px;
+    letter-spacing: 2px;
+    color: white;
 }
